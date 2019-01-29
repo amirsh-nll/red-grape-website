@@ -1,0 +1,435 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'BYekan';
+    src: url('../fonts/BYekan.eot');
+    src: url('../fonts/BYekan.eot') format('embedded-opentype'),
+         url('../fonts/BYekan.woff') format('woff'),
+         url('../fonts/BYekan.ttf') format('truetype'),
+         url('../fonts/BYekan.svg#byekan') format('svg');
+}
+body
+{
+	font-family:tahoma;
+	font-size:13px;
+	direction:rtl;
+	margin:0px;
+	padding:0px;
+	background:#f7f7f7;
+}
+a
+{
+	text-decoration:none;
+}
+.login_form
+{
+	border:1px solid #e63856;
+	border-right:10px solid #e63856;
+	margin:100px auto 100px auto;
+	background:#fff;
+	padding:10px;
+}
+.logo
+{
+	background:url(../image/logo.png) no-repeat;
+	height:150px;
+	margin:0px auto 20px auto;
+	border-bottom:5px dashed #e63856;
+	padding-bottom:20px;
+}
+.login_form td
+{
+	padding:10px;
+}
+.login_form input
+{
+	font-family:tahoma;
+	font-size:13px;
+	outline:none;
+	padding:5px;
+}
+.login_form input[type="submit"]
+{
+	cursor:pointer;
+	height:40px;
+	background:#000;
+	color:#fff;
+	border:none;
+	border-right:5px solid #e63856;
+}
+.clear
+{
+	clear:both;
+}
+.panel
+{
+	margin:100px auto;
+}
+.panel_menu
+{
+	font-family: 'BYekan';
+	background:#000;
+	border-right:5px solid #e63856;
+	padding-right:10px;
+	padding-left:10px;
+}
+.panel_menu table
+{
+	margin:20px 0px;
+	line-height:30px;
+}
+.panel_menu td
+{
+	padding:5px;
+}
+.panel_menu a
+{
+	color:#fff;
+	font-size:13px;
+}
+.panel_menu span
+{
+	color:#fff;
+}
+.menu_logo
+{
+	background:#fff;
+	height:90px;
+	margin:20px auto;
+	border-radius:100px;
+	text-align:center;
+}
+.panel_content
+{
+	background:#fff;
+	border:1px solid #e63856;
+	font-family: 'BYekan';
+}
+.panel_content h2
+{
+	font-size:17px;
+	font-weight:normal;
+	font-style:normal;
+	padding:10px;
+	margin:0px;
+	color:#fff;
+	background:#e63856;
+}
+.panel_content_section
+{
+	padding:10px;
+	text-align:justify;
+	line-height:30px;
+	font-size:13px;
+}
+.panel_content_section td
+{
+	padding:5px;
+}
+.panel_content_section input[type="text"]
+{
+	font-family:tahoma;
+	font-size:13px;
+	resize:none;
+	padding:10px;
+	outline:none;
+}
+.panel_content_section input[type="password"]
+{
+	font-family:tahoma;
+	font-size:13px;
+	resize:none;
+	padding:10px;
+	outline:none;
+}
+.panel_content_section textarea
+{
+	font-family:tahoma;
+	font-size:13px;
+	resize:none;
+	height:400px;
+	padding:10px;
+	outline:none;
+	line-height:30px;
+}
+.panel_content_section select
+{
+	font-family:tahoma;
+	font-size:13px;
+	resize:none;
+	padding:10px;
+	outline:none;
+	margin-bottom:10px;
+}
+.panel_content_section input[type="submit"]
+{
+	font-family:tahoma;
+	font-size:13px;
+	resize:none;
+	padding:10px;
+	outline:none;
+	cursor:pointer;
+}
+.database_table
+{
+	border:1px solid #000;
+	width:100%;
+}
+.database_table tr:nth-child(1) td
+{
+	background:#000;
+	color:#fff;
+}
+.database_table td
+{
+	border-bottom:1px solid #000;
+}
+.database_table td a
+{
+	color:#000;
+	font-weight:bold;
+}
+
+
+@media (min-width: 951px)
+{
+	.login_form
+	{
+		width:300px;
+	}
+	.logo
+	{
+		width:250px;
+	}
+	.login_form input[type="submit"]
+	{
+		width:70px;
+	}
+	.panel
+	{
+		width:900px;
+	}
+	.panel_menu
+	{
+		width:200px;
+		float:right;
+	}
+	.menu_logo
+	{
+		width:190px;
+	}
+	.panel_content
+	{
+		width:600px;
+		float:left;
+		min-height:700px;
+	}
+	.panel_content_section td:nth-child(even)
+	{
+		width:100px;
+	}
+	.panel_content_section input[type="text"], .panel_content_section input[type="password"], .panel_content_section textarea
+	{
+		width:400px;
+	}
+	.panel_content_section select
+	{
+		width:420px;
+	}
+	.panel_content_section input[type="submit"]
+	{
+		width:100px;
+		float:left;
+	}
+}
+@media (min-width: 768px) and (max-width: 950px)
+{
+	.login_form
+	{
+		width:300px;
+	}
+	.logo
+	{
+		width:250px;
+	}
+	.login_form input[type="submit"]
+	{
+		width:70px;
+	}
+	.panel
+	{
+		width:700px;
+	}
+	.panel_menu
+	{
+		width:170px;
+		float:right;
+	}
+	.menu_logo
+	{
+		width:160px;
+	}
+	.panel_content
+	{
+		width:450px;
+		float:left;
+		min-height:750px;
+	}
+	.panel_content_section td:nth-child(even)
+	{
+		width:100px;
+	}
+	.panel_content_section input[type="text"], .panel_content_section input[type="password"], .panel_content_section textarea
+	{
+		width:350px;
+	}
+	.panel_content_section select
+	{
+		width:370px;
+	}
+	.panel_content_section input[type="submit"]
+	{
+		width:100px;
+		float:left;
+	}
+}
+@media (min-width: 481px) and (max-width: 767px)
+{
+	.login_form
+	{
+		width:300px;
+	}
+	.logo
+	{
+		width:250px;
+	}
+	.login_form input[type="submit"]
+	{
+		width:70px;
+	}
+	.panel
+	{
+		width:400px;
+	}
+	.panel_menu
+	{
+		width:100px;
+		float:right;
+		text-align:center;
+	}
+	.panel_menu span
+	{
+		display:none;
+	}
+	.menu_logo
+	{
+		width:90px;
+	}
+	.menu_logo img
+	{
+		width:90px;
+	}
+	.panel_content
+	{
+		width:250px;
+		float:left;
+		min-height:750px;
+	}
+	.panel_content_section td:nth-child(even)
+	{
+		width:100px;
+	}
+	.panel_content_section input[type="text"], .panel_content_section input[type="password"], .panel_content_section textarea
+	{
+		width:150px;
+	}
+	.panel_content_section select
+	{
+		width:160px;
+	}
+	.panel_content_section input[type="submit"]
+	{
+		width:100px;
+		float:none;
+	}
+	.panel_content_section
+	{
+		font-size:9px;
+	}
+}
+@media (max-width: 480px)
+{
+	.login_form
+	{
+		width:200px;
+		font-size:9px;
+	}
+	.login_form input[type="text"], .login_form input[type="password"]
+	{
+		width:100px !important;
+	}
+	.logo
+	{
+		display:none;
+	}
+	.login_form input[type="submit"]
+	{
+		width:70px;
+	}
+	.panel
+	{
+		width:250px;
+		margin:50px auto;
+	}
+	.panel_menu
+	{
+		width:80%;
+		margin:0 auto;
+		float:none;
+		padding:0px;
+	}
+	.menu_logo
+	{
+		width:90px;
+	}
+	.menu_logo img
+	{
+		width:90px;
+	}
+	.panel_content
+	{
+		width:80%;
+		float:none;
+		margin:0 auto;
+		min-height:750px;
+		padding:0px;
+	}
+	.panel_content_section td:nth-child(even)
+	{
+		width:100px;
+	}
+	.panel_content_section input[type="text"], .panel_content_section input[type="password"], .panel_content_section textarea
+	{
+		width:100px;
+	}
+	.panel_content_section input[type="file"]
+	{
+		font-size:8px;
+	}
+	.panel_content_section select
+	{
+		width:110px;
+	}
+	.panel_content_section input[type="submit"]
+	{
+		width:100px;
+		float:none;
+	}
+	.panel_content_section
+	{
+		font-size:9px;
+	}
+	.panel_content_section
+	{
+		width:80% !important;
+	}
+}
